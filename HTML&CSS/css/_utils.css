@@ -1,0 +1,12 @@
+.copy-primary {
+
+    color: var(--color-primary);
+
+}
+
+
+.copy-second {
+    font-weight: 300;
+    font-size: .875rem;
+    float: right;
+}

@@ -1,0 +1,114 @@
+.footer {
+    padding: 0 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer .logo--vhjs {
+    justify-self: start;
+    margin: 0;
+}
+
+.footer small {
+    font-weight: 300;
+    font-size: .875rem;
+    display: block;
+
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0;
+}
+
+.footer_form {
+
+    display: grid;
+    place-items: center;
+    grid grid-template-columns: 5.625rem, auto;
+    gap: 1rem;
+
+
+}
+
+.footer_form input {
+    width: 100%;
+    background-color: white;
+    border: unset;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+
+
+}
+
+.footer_form input::placeholder {
+    color: #000;
+
+}
+
+.footer_form input:focus {
+    outline-color: #fff;
+}
+
+.footer_form button {
+    cursor: pointer;
+    border: unset;
+    height: 100%;
+    transition: 0.3s all ease;
+
+}
+
+.footer_form button:hover {
+    color: #fff;
+    background-color: var(--color-copy);
+
+}
+
+.footer_form label {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1rem;
+
+}
+
+.footer_email {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    width: 100%;
+}
+
+
+.footer_social {
+    justify-self: end;
+}
+
+.footer_social a,
+.footer_social a:visited,
+.footer_social a:active {
+    color: #fff;
+    letter-spacing: 1ch;
+}
+
+.footer hr {
+    border-color: #fff4;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+
+.footer span {
+    color: var(--color-primary);
+}
+
+.footer p {
+    text-transform: uppercase;
+    height: 400;
+}

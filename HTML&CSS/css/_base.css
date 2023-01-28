@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: var(--color-copy);
+}
+
+header,
+main,
+footer {
+    overflow-x: hidden;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.logo--vhjs {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2ch;
+
+}
+
+.logo--vhjs a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "imagine",
+  "version": "1.0.0",
+  "description": "Meu primeiro site",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx live-server ./studion/source/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoDevMartins/studies.git"
+  },
+  "keywords": [
+    "Html",
+    "Css",
+    "Javascript"
+  ],
+  "author": "Eduardo J Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoDevMartins/studies.git"
+  },
+  "homepage": "https://github.com/EduardoDevMartins/studies.git#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "package.json": "^2.0.1"
+  }
+}

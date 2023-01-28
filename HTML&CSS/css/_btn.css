@@ -1,0 +1,42 @@
+.btn {
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    color: var(--color-primary);
+    border: .125rem solid #fff;
+    background: unset;
+    border-radius: 5rem;
+    font-size: .9375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.8 all ease;
+
+}
+
+.btn_saibaMais:hover,
+.btn_saibaMais:active,
+.btn_saibaMais:focus,
+.btn--institutional,
+.btn--quote:hover,
+.btn--quote:active,
+.btn__contato:hover {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn__contato:hover {
+    color: #fff;
+}
+
+.btn--institutional:hover {
+    color: var(--color-copy);
+    background: unset;
+    box-shadow: 0 1rem 1rem #000600;
+}
+
+.btn--quote {
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+    background: unset;
+
+}

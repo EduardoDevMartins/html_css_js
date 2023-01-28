@@ -1,0 +1,95 @@
+.contatos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contatos h3 {
+    font-size: 1.5625rem;
+    margin: 0;
+    margin-bottom: 1.875rem;
+}
+
+
+
+.contatos__info h3:nth-of-type(2) {
+    margin-top: 3.75rem;
+}
+
+.contatos__info__container,
+.contatos__info__form {
+    width: 540px;
+
+}
+
+.contatos__info,
+.contato__form {
+    padding: 4rem 0;
+}
+
+
+.contatos__info__container {
+    float: right;
+    padding-right: 7.125rem;
+}
+
+.contatos__info span,
+.contatos__info__form label,
+.contatos__info__form input {
+    display: block;
+}
+
+.contatos__info__form label {
+   font-weight: 700; 
+
+}
+
+.contatos__info__form input {
+    width: 100%;
+    margin-bottom: 2.175rem;
+    padding: 0.5rem 0;
+    background: unset;
+    border: unset;
+    border-bottom: 0.1rem solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+.contatos__info__form input:focus {
+    outline: unset;
+}
+
+.contatos__info i {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-right: .625rem;
+
+}
+
+.contatos__info span {
+    
+    font-size: 1.06rem;
+    font-weight: 700;
+    line-height: 1.6875rem;
+    font-family: 'roboto';
+    
+}
+.contato__form {
+    background-color: #000;
+    color: #fff;
+    padding-left: 7.125rem;
+}
+
+.contatos__info__form button {
+    float: right;
+}
+
+.maps {
+    height: 100%;
+}
+.maps iframe {
+
+
+    width: 100%;
+    
+}
